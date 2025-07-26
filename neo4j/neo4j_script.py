@@ -86,7 +86,7 @@ def load_to_neo4j(data):
 
 
 if __name__ == "__main__":
-    file_path = "ПД_Шатило.docx"
+    file_path = "Вопросы_парсинг.docx"
     parsed_data = parse_document(file_path)
     load_to_neo4j(parsed_data)
     driver.close()
